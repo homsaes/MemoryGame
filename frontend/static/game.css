@@ -1,0 +1,49 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(4, min-content);
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #999;
+    height: 250px;
+    margin: 0.1rem;
+    width: 250px;
+  }
+
+  .selected {
+    background-color: red;
+  }
+
+
+  
+  .card:hover {
+    outline: solid 1px red;
+  }
+  
+  .kbd-navigation .card:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
